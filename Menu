@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfumaria da Gleyci Revoredo</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+        <div class="inicio">
+            <img src="imagem/WhatsApp Image 2024-10-02 at 19.44.09 (1).jpeg"
+            height="250"
+            width="250">  
+        </div>         
+    
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="promocoes.html" style="color: white;">Promoçoes</a></li>
+                    <li><a href="lancamentos.html" style="color: white;">lancamentos</a></li>
+                    <li><a href="makes.html" style="color: white;">Make</a></li>
+                    <li><a href="cabelos.html" style="color: white;">Cabelo</a></li>
+                    <li><a href="perfumaria.html" style="color: white;">Perfume</a></li>
+                    <li><a href="sobre.html" style="color: white;">Sobre</a></li>
+                </ul>
+            </nav> 
+
+                                    <br> <br>
+        <div class="container">
+            <p style="text-align: center;" > Sejam Bem Vindos a Minha loja Virtual da Gleyci Revoredo @perfumariadagle</p> <br>
+            <p style="text-align: center;">Navegue Pelas Marcas</p>
+            <p style="text-align: center;">
+                <img src="imagem/Botica 214 African Sunrise Fougére Amadeirado Eau De Parfum 90ml.jfif" height="100" width="100">
+                <img src="imagem/Botica 214 African Sunrise Fougére Amadeirado Eau De Parfum 90ml.jfif" height="100" width="100">
+                <img src="imagem/Botica 214 African Sunrise Fougére Amadeirado Eau De Parfum 90ml.jfif" height="100" width="100">
+                <img src="imagem/Botica 214 African Sunrise Fougére Amadeirado Eau De Parfum 90ml.jfif" height="100" width="100">
+            </p>
+
+            <!--Carrosel de imagem automatico-->
+            <main class="main">
+                <section class="galery">
+                    <div class="fotos">
+                        <img src="imagem/carrosel/img1.PNG" alt="Foto 1">
+                        <img src="imagem/carrosel/img2.PNG" alt="Foto 2">
+                        <img src="imagem/carrosel/img3.PNG" alt="Foto 3">
+                        <img src="imagem/carrosel/img4.PNG" alt="Foto 4">
+                        <img src="imagem/carrosel/img5.PNG" alt="Foto 1">
+                    </div>
+                </section>
+            </main>
+            <!--Fim do carrosel de imagem automatico-->
+                   
+                        <br><br>
+                
+                </header>  
+        </div>
+        <br>
+        <table>
+            <tr>
+                <td>
+                    <div class="swiffy-slider">
+                        <ul class="slider-container">
+                            <li><img src="imagem/Lyli/Creme Hidratante Acetinado Lily Tradicional.jfif" style="max-width: 70%;height: auto;"></li>
+                            <li><img src="imagem/Lyli/img1.jpeg" style="max-width: 70%;height: auto;"></li>
+                            <li><img src="imagem/Lyli/img2.jpeg" style="max-width: 70%;height: auto;"></li>
+                            <li><img src="imagem/Lyli/img3.jpeg" style="max-width: 70%;height: auto;"></li>
+                        </ul>
+                        <button type="button" class="slider-nav"></button>
+                        <button type="button" class="slider-nav slider-nav-next"></button>
+                    
+                        <div class="slider-indicators">
+                            <button class="active">1</button>
+                            <button>2</button>
+                            <button>3</button>
+                            <button>4</button>
+                        </div>
+                    </div>
+                </td> 
+                    <h2 style="text-align: center;">Creme Acetinado Hidratante Desodorante Corporal Lily 250g</h2> 
+                    </div>
+                    <img src="imagem/Lyli/img4.jpeg" height="86px" width="160px">
+                <td>
+                    <p style="font-size: 17px;">O Creme Acetinado Hidratante Desodorante Corporal Lily entrega sua fragrância preferida, com textura aveludada e nova embalagem.
+                        Composto por Manteiga Karité que cria uma película protetora e Vitamina E, o creme corporal proporciona pele protegida* e hidratação por até 48 horas, tem rápida absorção para uma sensação de pele sequinha.
+                        O creme acetinado é a combinação ideal de perfumação intensa e prolongada com a sofisticada 
+                        fragrância de Lily, que é da família olfativa Floral Bouquet.
+                    </p><br> <br>
+                    <div class="wrapper">
+                        <h3>Descrição do Produto</h3>
+                        <input type="checkbox" id="btn-a">
+                        <label for="btn-a">Mostrar Mais</label>
+                        <div class="hide">
+                        <P style="font-size: 15px;">O Creme Acetinado Hidratante Desodorante Corporal Lily entrega sua fragrância preferida, com textura aveludada e nova embalagem.
+                            Composto por Manteiga Karité que cria uma película protetora e Vitamina E, o creme corporal proporciona pele protegida* e hidratação por até 48 horas, tem rápida absorção para uma sensação de pele sequinha.
+                            O creme acetinado é a combinação ideal de perfumação intensa e prolongada com a sofisticada 
+                            fragrância de Lily, que é da família olfativa Floral Bouquet. </p>
+                        </div>
+                    </div>
+                    <br clear="all">
+                    <div class="wrapper">
+                        <h3>Ingredientes</h3>
+                        <input type="checkbox" id="btn-b">
+                        <label for="btn-b">Mostrar Mais</label>
+                        <div class="hide">
+                        <p style="font-size: 15px;">Água; Glicerol; Triglicerídeo caprílico/cáprico; Dimeticona; Monoestearato de glicerila; Perfume; Álcool cetílico; Álcool estearílico; Octenilsuccinato de amido alumínio; Dicaprilil éter; Manteiga de butyrospermum parkii; Polissorbato 60; Estearato de sorbitana; Estearato de macrogol 100; Diestearato de polietilenoglicol-120; Álcool benzílico; Caprililglicol; Goma xantana ; Ácido esteárico; Acetato de tocoferila; Tocoferol; Trolamina; Alfa-isometil ionona; Salicilato de benzila; Cumarina; Geraniol; Hexil cinamal; Isoeugenol; Linalol.</p> 
+                        </div>
+                    </div>
+                    <a href="#"><img src="imagem/Comprar-Agora.png" height="150" width="200"></a>
+                </td>
+            </tr>
+        </table>
+             
+                                        <br><br><br><br><br>
+        <table>
+            <tr>
+                <td>
+                    <div class="swiffy-slider">
+                        <ul class="slider-container">
+                            <li><img src="imagem/HerCode/img.jpeg" style="max-width: 70%;height: auto;"></li>
+                            <li><iframe style="max-width: 100%;height:400px;" src="https://www.youtube.com/embed/n6XstbKlsR0?si=2xGvmDRO-TFQLlJF"></iframe></li>
+                            <li><img src="imagem/HerCode/img1.jpeg" style="max-width: 70%;height: auto;"></li>
+                            <li><img src="imagem/HerCode/img3.jpeg" style="max-width: 70%;height: auto;"></li>
+                        </ul>
+                        <button type="button" class="slider-nav"></button>
+                        <button type="button" class="slider-nav slider-nav-next"></button>
+                    
+                        <div class="slider-indicators">
+                            <button class="active">1</button>
+                            <button>2</button>
+                            <button>3</button>
+                            <button>4</button>
+                        </div>
+                    </div>
+                </td> 
+                    <h2 style="text-align: center;">Her Code Touch Eau De Parfum 50ml</h2> 
+                    </div>
+                    <img src="imagem/HerCode/img4.jpeg" height="56px" width="110px">
+                <td>
+                    <p style="font-size: 17px;">O código para você se abrir para o seu prazer sem julgamentos!<br><br>
+                        Her Code incentiva as mulheres a se libertarem para novas possibilidades em busca de seu prazer feminino.<br><br>
+                        Her Code Touch Eau De Parfum é um convite envolvente para você explorar e descobrir o seu prazer absoluto através do toque. 
+                        Sensual e instigante, esta fragrância amadeirada combina o exclusivo Código Secreto, acorde olfativo único e instigante, à sofisticação envolvente da Baunilha Absoluta, aquecidos pela feminilidade floral do Ylang Ylang e à força do Sândalo, revelando nuances quentes e sensuais que aguçam o prazer feminino.
+                    </p><br> <br>
+                    <div class="wrapper">
+                        <h3>Como Usar</h3>
+                        <input type="checkbox" id="btn-a">
+                        <label for="btn-a">Mostrar Mais</label>
+                        <div class="hide">
+                        <p style="font-size: 15px;">Aplique sobre o corpo como desejar, reaplicando se necessário.<br><br>
+                            Para sentir a sua fragrância favorita por mais tempo:<br><br>
+                            Borrife a fragrância nas áreas onde há maior circulação do sangue, como o pescoço, dobras do cotovelo e atrás das orelhas. Para aumentar o potencial da perfumação, experimente preparar a pele com os nossos produtos de Corpo e Banho.</p>
+                        </div>
+                    </div>
+                    <br clear="all">
+                    <div class="wrapper">
+                        <h3>Pirâmede Olfativa</h3>
+                        <input type="checkbox" id="btn-b">
+                        <label for="btn-b">Mostrar Mais</label>
+                        <div class="hide">
+                        <p style="font-size: 15px;">Topo: Frutas Vermelhas, Bergamota Corpo: Jasmim, Tuberosa, Ylang-Ylang, Acorde Secreto Fundo: Baunilha Absoluta, Baunilha Delight, Sândalo, Âmbar</p> 
+                        </div>
+                    </div>
+                    <a href="#"><img src="imagem/Comprar-Agora.png" height="150" width="200"></a>
+                </td>
+            </tr>
+        </table>
+
+       
+                                        <br><br><br><br><br>
+
+        <table>
+            <tr>
+                <td>
+                    <div class="swiffy-slider">
+                        <ul class="slider-container">
+                            <li><img src="imagem/Zaad/img1.jpeg" style="max-width: 60%;height: auto;"></li>
+                            <li><img src="imagem/Zaad/img2.jpeg" style="max-width: 60%;height: auto;"></li>
+                            <li><img src="imagem/Zaad/img3.jpeg" style="max-width: 60%;height: auto;"></li>
+                            <li><img src="imagem/Zaad/img4.jpeg" style="max-width: 60%;height: auto;"></li>
+                        </ul>
+                        <button type="button" class="slider-nav"></button>
+                        <button type="button" class="slider-nav slider-nav-next"></button>
+                    
+                        <div class="slider-indicators">
+                            <button class="active">1</button>
+                            <button>2</button>
+                            <button>3</button>
+                            <button>4</button>
+                        </div>
+                    </div>
+                </td> 
+                    <h2 style="text-align: center;">Zaad Eau de Parfum 95ml</h2> 
+                    </div>
+                    <img src="imagem/Zaad/img5.jpeg" height="34px" width="110px">
+                <td>
+                    <p style="font-size: 17px;">O Zaad Eau de Parfum foi desenvolvido para homens contemporâneos, sofisticados e seletivos, entregando os melhores ingredientes do mundo da perfumaria masculina para o seu dia a dia.<br><br>
+                        Inspirados pela busca incessante por expandir nossa vida por meio de viagens, unimos a Bergamota da Itália e o Cedro dos Estados Unidos, para inspirar a criação desta fragrância Amadeirada Fresca que vai sempre te lembrar que viajar é preciso.
+                    </p><br><br>
+                    <div class="wrapper">
+                        <h3>Como Usar</h3>
+                        <input type="checkbox" id="btn-a">
+                        <label for="btn-a">Mostrar Mais</label>
+                        <div class="hide">
+                        <p style="font-size: 15px;">Conselho de Aplicação<br>
+                            Aplique sobre o corpo como desejar reaplicando se necessário.<br><br>
+                            Inflamável. Evite contato com os olhos. Não aplique na região das axilas, em pele irritada ou lesionada. Caso ocorra irritação e/ou prurido no local, suspenda o uso imediatamente.</p>
+                        </div>
+                    </div>
+                    <br clear="all">
+                    <div class="wrapper">
+                        <h3>Pirâmede Olfativa</h3>
+                        <input type="checkbox" id="btn-b">
+                        <label for="btn-b">Mostrar Mais</label>
+                        <div class="hide">
+                        <p style="font-size: 17px;">Topo: Bergamota da Itália, Coriandro da Rússia, Sementes de Zimbro, Notas Verdes. Corpo: Cedro dos Estados Unidos, Cravo, Noz-moscada da Indonésia, Headspace Golden Chain Orchid das Filipinas, Patchouli da Indonésia. Fundo: Âmbar, Musgo de Carvalho da Sérvia, Musk, Sândalo.</p> 
+                        </div>
+                    </div>
+                    <a href="#"><img src="imagem/Comprar-Agora.png" height="150" width="200"></a>
+                </td>
+            </tr>
+        </table>
+    </main>                                  
+                                        <br><br><br><br>
+    <div class="sobre">
+        * Veja o Nosso Catalago Completo *<br>
+        <a href="catalago.html" style="color: white;"> Click aqui e Conheça o Nosso Catalago</a>
+        <br> 
+    </div>
+    
+    <h1 style="color: white;background-color: rgb(194, 130, 162) ;height: 50px;text-align: center;">Experimente tambem</h1>
+    <section>
+    <div class="produto">
+        <span class="prod">
+            <h3>Coffee Woman</h3>
+            <img src="imagem/Coffee Woman Seduction Desodorante ColÃ´nia 100ml.jfif">
+            <p>
+                 Sua fragrância é envolvente e sensual, criada para mulheres que apreciam aromas marcantes e sedutores.
+            </p>
+        </span>
+       
+        <span class="prod">
+             <h3>Zaad Venture</h3>
+            <img src="imagem/Zaad Venture Eau De Parfum 95ml.jfif">
+            <p>
+                Para homens que buscam uma fragrância que transmita elegância, dinamismo e frescor. 
+            </p>
+        </span>
+       
+        <span class="prod">
+             <h3>Botica 214 African</h3>
+            <img src="imagem/Botica 214 African Sunrise Fougére Amadeirado Eau De Parfum 90ml.jfif">
+            <p>
+                Se destaca pela combinação de ingredientes nobres e raros, resultando em uma experiência olfativa sofisticada e elegante.
+            </p>
+        </span>
+        
+        <span class="prod">
+            <h3>Essencial Ato</h3>
+           <img src="imagem/Essencial Ato Deo Parfum Masculino 100ml.jfif">
+           <p>
+            Voltado para quem busca uma fragrância intensa e marcante, expressando elegância e sofisticação.
+           </p>
+       </span>
+       
+       <span class="prod">
+            <h3>Malbec Tradicional</h3>
+       <img src="imagem/transferir.jfif">
+            <p>
+                O Malbec é uma das fragrâncias masculinas mais icônicas de O Boticário, conhecida por seu conceito inovador.
+            </p>
+        </span>
+   
+        <span class="prod">
+            <h3>Kaiak Aventura </h3>
+       <img src="imagem/Miniatura Kaiak Aventura Masculino 25ml.jfif">
+            <p>
+                Uma fragrância da linha Kaiak da Natura, conhecida por capturar a essência de liberdade, frescor e dinamismo. 
+            </p>
+            </span>
+</section>
+<footer>
+    <div class="fundo">
+        <p style="text-align: center;">Siga minha Rede Social!</p><br>
+        <p style="text-align: center;">E visite minhas lojas virtuais!</p><br>
+        <div class="imgrodape">
+            <img src="imagem/Instagram's Original Logo Creator Likes The New Logo.jfif">
+            <img src="imagem/Natura.jfif">
+            <img src="imagem/fb363be4-983a-478b-94b9-97658e7b4e45.jfif">
+            <img src="imagem/forma de pagamento.jfif">
+        </div>
+            <br>
+            <p style="text-align: center;">Os preços da loja online podem variar em relação as lojas físicas e venda direta.<br><br><br>
+            SITE VIRTUAL PERFUMARIA DA GLEYCI REVOREDO, EUDORA,BOTICÁRIO E NATURA PRODUTOS DE BELEZA LTDA<br><br>
+            Rd.Alvaro barbosa de lima neto, 3280 - Bloco A AP04 - Parque araucarias- Tremembé-SP- CEP: 12.125-450  
+            </p>
+    </div>
+</footer>
+</body>
