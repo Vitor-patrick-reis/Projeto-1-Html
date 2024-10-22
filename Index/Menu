@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./css/default.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/animation.css">
-    
     <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
 </head>
@@ -17,9 +16,8 @@
             <img src="imagem/WhatsApp Image 2024-10-02 at 19.44.09 (1).jpeg"
             height="250"
             width="250">  
-        </div>         
-    
-        <header>
+        </div>  
+          <header>
             <nav>
                 <ul>
                     <li><a href="promocoes.html" style="color: white;">Promoçoes</a></li>
@@ -30,26 +28,29 @@
                     <li><a href="sobre.html" style="color: white;">Sobre</a></li>
                 </ul>
             </nav> 
-
-                                    <br> <br>
+            <br>
+            <form class="search-container">
+                <input type="text" id="search-bar" placeholder="O que você procura hoje?">
+                <a href="#"><img class="search-icon" src="imagem/inicio/busca.PNG"></a>
+              </form>    
         <div class="container">
-            <p style="text-align: center;" > Sejam Bem Vindos a Minha loja Virtual da Gleyci Revoredo @perfumariadagle</p> <br>
-            <p style="text-align: center;">Navegue Pelas Marcas</p>
+            <h3 style="text-align: center;">Principais marcas</h3>
             <p style="text-align: center;">
-                <img src="imagem/Botica 214 African Sunrise Fougére Amadeirado Eau De Parfum 90ml.jfif" height="100" width="100">
-                <img src="imagem/Botica 214 African Sunrise Fougére Amadeirado Eau De Parfum 90ml.jfif" height="100" width="100">
-                <img src="imagem/Botica 214 African Sunrise Fougére Amadeirado Eau De Parfum 90ml.jfif" height="100" width="100">
-                <img src="imagem/Botica 214 African Sunrise Fougére Amadeirado Eau De Parfum 90ml.jfif" height="100" width="100">
+                <img src="imagem/inicio/Capturar.PNG" height="80" width="80">
+                <img src="imagem/inicio/img2.PNG" height="80" width="80">
+                <img src="imagem/inicio/img3.PNG" height="80" width="80">
+                <img src="imagem/inicio/img4.PNG" height="80" width="80">
             </p>
-
+            <br>
+    
             <!--Carrosel de imagem automatico-->
             <main class="main">
                 <section class="galery">
                     <div class="fotos">
                         <img src="imagem/carrosel/img1.PNG" alt="Foto 1">
                         <img src="imagem/carrosel/img2.PNG" alt="Foto 2">
-                        <img src="imagem/carrosel/img3.PNG" alt="Foto 3">
-                        <img src="imagem/carrosel/img4.PNG" alt="Foto 4">
+                        <img src="imagem/carrosel/img7.PNG" alt="Foto 3">
+                        <img src="imagem/carrosel/img8.PNG" alt="Foto 4">
                         <img src="imagem/carrosel/img5.PNG" alt="Foto 1">
                     </div>
                 </section>
@@ -61,6 +62,7 @@
                 </header>  
         </div>
         <br>
+        
         <table>
             <tr>
                 <td>
@@ -115,8 +117,9 @@
                 </td>
             </tr>
         </table>
+        <img src="imagem/inicio/img5.PNG" height="390px">
              
-                                        <br><br><br><br><br>
+                                        <br><br><br>
         <table>
             <tr>
                 <td>
@@ -170,9 +173,9 @@
                 </td>
             </tr>
         </table>
+        <img src="imagem/carrosel/img7.PNG" height="390px">
 
-       
-                                        <br><br><br><br><br>
+                                        <br><br><br>
 
         <table>
             <tr>
@@ -302,3 +305,5 @@
     </div>
 </footer>
 </body>
+
+
