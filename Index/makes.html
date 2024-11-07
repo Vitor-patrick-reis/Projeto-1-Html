@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makes</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="imagem/logo2.jpeg" alt="Logo do site">
+        </div>
+        <input type="checkbox" id="navbar-toggle" class="navbar-checkbox">
+        <label for="navbar-toggle" class="navbar-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <ul class="navbar-links">
+            <li><a href="menu.html" style="color: white;">Início</a></li>
+            <li><a href="promocoes.html" style="color: white;">Promoções</a></li>
+            <li><a href="lancamentos.html" style="color: white;">Lançamentos</a></li>
+            <li><a href="cabelos.html" style="color: white;">Cabelo</a></li>
+            <li><a href="perfumaria.html" style="color: white;">Perfumaria</a></li>
+            <li><a href="sobre.html" style="color: white;">Sobre</a></li>
+        </ul>
+    </nav>
+    <div class="fixed-image">
+        <a href="catalago.html" class="fixed-link">Catálogo Completo</a>
+    </div>
+    <br><br>
+    <form class="search-container">
+        <input type="text" id="search-bar" placeholder="O que você procura hoje?">
+        <a href="#"><img class="search-icon" src="imagem/inicio/busca.PNG"></a>
+    </form>
+
+    <div class="faixa">
+        <img src="imagem/make/Capturar.PNG" height="260px">
+    </div>
+    <!---Mensagem automatica na tela-->
+    <div class="message-box" id="messageBox">
+        <span class="close-btn" onclick="closeMessage()">X</span>
+        <h2>Conheça o nosso catálago completo!</h2>
+        <p>Clique no link abaixo e veja nossas ofertas especiais!</p>
+        <a href="catalago.html" target="_blank">Ver Catalago</a>
+    </div>
+    <script>
+        function showMessage() {
+            const messageBox = document.getElementById('messageBox');
+            messageBox.style.display = 'block';
+
+            // Oculta a mensagem automaticamente após 10 segundos, se não for fechada
+            setTimeout(() => {
+                messageBox.style.display = 'none';
+            }, 10000);
+        }
+
+        function closeMessage() {
+            const messageBox = document.getElementById('messageBox');
+            messageBox.style.display = 'none';
+        }
+
+        // Exibe a mensagem a cada 20 segundos
+        setInterval(showMessage, 20000);
+    </script>
+    <!---Fim Mensagem automatica na tela-->
+    <main><br>
+        <h2 style="text-align: center;">Paleta de Sombra Turbo SOUL </h2>
+        </div>
+        <img src="imagem/make/soul.PNG" height="80px" width="140px"><br>
+        <div class="carousel" id="carousel14">
+            <div class="carousel-content">
+                <div class="carousel-item active"><img src="imagem/make/img1.PNG"></div>
+                <div class="carousel-item"><img src="imagem/make/img2.PNG"></div>
+                <div class="carousel-item"><img src="imagem/make/img3.PNG"></div>
+            </div>
+            <button class="carousel-btn prev" onclick="prevSlide('carousel14')">&#10094;</button>
+            <button class="carousel-btn next" onclick="nextSlide('carousel14')">&#10095;</button>
+        </div><br>
+        <table>
+            <tr>
+                <td>
+                    <div class="card-p">
+                        <div class="price-info">
+                            <p class="old-price">R$ 144,90</p>
+                            <span class="discount">-50%</span>
+                        </div>
+                        <h2 class="current-price">R$ 71,90</h2>
+                        <p class="installment">3x R$ 23,97</p>
+
+                        <button class="buy-button">🛒 COMPRAR</button>
+
+                        <div class="shipping">
+                            <p><strong>Consultar frete e prazo</strong></p>
+                            <p>Informações de frete válidas apenas para este produto. Confira as condições definitivas
+                                na
+                                sacola.</p>
+                            <div class="cep-check">
+                                <input type="text" placeholder="Digite o CEP">
+                                <button>OK</button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <p style="font-size: 17px;">O Efeito Turbo, referência em Eudora e sinônimo de maquiagens incríveis,
+                        agora em Paleta de Sombra SOUL<br> Uma edição limitada para você turbinar a sua make em qualquer
+                        ocasião.
+                    </p><br> <br>
+                    <div class="wrapper">
+                        <h3>Como Usar</h3>
+                        <input type="checkbox" id="btn-a">
+                        <label for="btn-a">Mostrar Mais</label>
+                        <div class="hide">
+                            <P style="font-size: 15px;">Conselho de Aplicação<br><br>
+                                Aplique as sombras nas pálpebras com o auxílio de um pincel. Combine cores e
+                                acabamentos para criar diferentes efeitos. Para potencializar o acabamento das
+                                sombras de brilho intenso, opte por aplicá-las com os dedos, depositando-as sobre as
+                                pálpebras. </p>
+                        </div>
+                    </div>
+                    <br clear="all">
+                    <div class="wrapper">
+                        <h3>Ingredientes</h3>
+                        <input type="checkbox" id="btn-b">
+                        <label for="btn-b">Mostrar Mais</label>
+                        <div class="hide">
+                            <p style="font-size: 15px;">MATTE MARROM AVERMELHADO: Talco; Óxido de ferro vermelho; Mica;
+                                Dióxido de silício; Óxido de ferro preto; Palmitato de etilexila;
+                                Trietoxicaprililsilano; Estearato de magnésio; Óxido de ferro amarelo; Poliaciladipato-2
+                                de bis-diglicerila; Trimelitato de tridecila; Dimeticona; Fenoxietanol;
+                                Poli-isobutileno; 1,2-hexanodiol; Caprililglicol; Acetato de tocoferila;
+                                Etilexilglicerina.
+                        </div>
+                    </div>
+                    <a href="#"><img src="imagem/Comprar-Agora.png" height="150" width="200"></a>
+                </td>
+            </tr>
+        </table><br><br>
+
+        <div class="faixa">
+            <img src="imagem/make/Capturar2.PNG" height="390px"><br>
+        </div><br><br>
+
+        <h2 style="text-align: center;">Combo Quem Disse, Berenice?: Máscara Marca Cílios 8ml + Batom Duo Gloss
+            7Belo 8ml</h2>
+        </div>
+        <img src="imagem/make/marcasamigas.PNG" height="86px" width="160px">
+        <div class="carousel" id="carousel15">
+            <div class="carousel-content">
+                <div class="carousel-item active"><img src="imagem/make/img4.PNG"></div>
+                <div class="carousel-item"><img src="imagem/make/img5.PNG"></div>
+                <div class="carousel-item"><img src="imagem/make/img6.PNG"></div>
+            </div>
+            <button class="carousel-btn prev" onclick="prevSlide('carousel15')">&#10094;</button>
+            <button class="carousel-btn next" onclick="nextSlide('carousel15')">&#10095;</button>
+        </div>
+        <table>
+            <tr>
+                <td>
+                    <div class="card-p">
+                        <div class="price-info">
+                            <p class="old-price">R$ 144,90</p>
+                            <span class="discount">-50%</span>
+                        </div>
+                        <h2 class="current-price">R$ 71,90</h2>
+                        <p class="installment">3x R$ 23,97</p>
+
+                        <button class="buy-button">🛒 COMPRAR</button>
+
+                        <div class="shipping">
+                            <p><strong>Consultar frete e prazo</strong></p>
+                            <p>Informações de frete válidas apenas para este produto. Confira as condições definitivas
+                                na
+                                sacola.</p>
+                            <div class="cep-check">
+                                <input type="text" placeholder="Digite o CEP">
+                                <button>OK</button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <p style="font-size: 17px;">Combo Quem Disse, Berenice?: Máscara Marca Cílios 8ml + Batom Duo Gloss
+                        7Belo 8ml<br><br>
+                        Aproveite para sentir as melhores sensações nostálgicas da infância com este Combo Quem Disse,
+                        Berenice?<br> Que possui dois itens essenciais para quem deseja cílios volumosos e encurvados, e
+                        lábios coloridos durante horas.
+                    </p><br> <br>
+                    <div class="wrapper">
+                        <h3>Descrição do Produto</h3>
+                        <input type="checkbox" id="btn-a">
+                        <label for="btn-a">Mostrar Mais</label>
+                        <div class="hide">
+                            <P style="font-size: 15px;">MÁSCARA PARA CÍLIOS<br><br>
+                                A Máscara Marca Cílios Preto QDB e Faber-Castell deixa seus fios volumosos e
+                                pigmentados, dando um toque especial na maquiagem com o olhar destacado. Veja mais seus
+                                benefícios:
+                                <br><br>
+                                - Cor preta;<br>
+                                - Efeito curvado e volumoso aos cílios;<br>
+                                - Embalagem que lembra a caneta de quadro branco Faber-Castell.<br>
+                                Você poderá reviver a nostalgia de se pintar com aquele material escolar divertido usado
+                                na infância, mas com uma make de verdade!
+                                BATOM DUO<br><br>
+                                O Batom Duo Gloss Rosa Único 7Belo traz a proposta 2 em 1, com dois acabamentos em um
+                                único produto. De um lado oferece cor e efeito matte de batom. Confira:<br>
+                                - Duração de até 16h;<br>
+                                - Alta pigmentação;<br>
+                                - Não transfere e nem borra.<br>
+                                Além disso, dá uma sensação confortável de lábios hidratados, sem falar no cheirinho
+                                inspirado em 7Belo. Já imaginou usar makes inspiradas em 7Belo? Essa parceria tornou seu
+                                sonho infantil realidade!
+                            </p>
+                        </div>
+                    </div>
+                    <br clear="all">
+                    <div class="wrapper">
+                        <h3>Este Item Comtém</h3>
+                        <input type="checkbox" id="btn-b">
+                        <label for="btn-b">Mostrar Mais</label>
+                        <div class="hide">
+                            <p style="font-size: 15px;">01 Máscara Marca Cílios Preto Quem Disse, Berenice? E
+                                Faber-Castell 8ml<br><br>
+                                01 Batom Duo Gloss Rosa Único Quem Disse, Berenice? 7Belo 8ml</p>
+                        </div>
+                    </div>
+                    <a href="#"><img src="imagem/Comprar-Agora.png" height="150" width="200"></a>
+                </td>
+            </tr>
+        </table>
+        <br><br>
+        <div class="faixa">
+            <a
+                href="https://mtr.center/eudora/?_gl=1*10uebrm*_gcl_aw*R0NMLjE3Mjk2MzM0MjMuQ2owS0NRandtdDI0QmhEUEFSSXNBSkZZS2sxd01rN1dhbWd1VkVGekZNRFdfMDFENTgtc3JGbGRSYTA5a1JNRGo0ZUp3RElsbzVjTWNTMGFBbmFZRUFMd193Y0I.*_gcl_dc*R0NMLjE3Mjk2MzM0MjMuQ2owS0NRandtdDI0QmhEUEFSSXNBSkZZS2sxd01rN1dhbWd1VkVGekZNRFdfMDFENTgtc3JGbGRSYTA5a1JNRGo0ZUp3RElsbzVjTWNTMGFBbmFZRUFMd193Y0I.*_gcl_au*MTU0NDY3NTkzMi4xNzI5NjI4OTM4*_ga*MzY5MzY0NTU3LjE3Mjk2Mjg5Mzk.*_ga_T3RWM7836W*MTcyOTYzMzQyMi4yLjEuMTcyOTYzNzU3Ni42MC4wLjA.*_ga_ERTR7FHZP5*MTcyOTYzMzQyMS4yLjEuMTcyOTYzNzU3Ni42MC4wLjA.">
+                <img src="imagem/make/Capturar3.PNG" height="290px"></a>
+            <br><br>
+        </div>
+        <div class="product-grid">
+            <!-- Card de produto -->
+            <div class="product-card">
+                <div class="expiry">VENCIMENTO: MAR/25</div>
+                <div class="badge">-50%</div>
+                <img src="imagem/make/img7.PNG">
+                <div class="product-name"> Batom Vermelho Red Cherry Cremoso Make B. Cereja Rouge 3,6g</div>
+                <div class="product-description"> Batom vermelho com embalagem personalizada e até 48h de hidratação,
+                    volume e preenchimento para os lábios. </div>
+                <div class="product-old-price">R$ 100,00</div>
+                <div class="product-price">R$ 100,00</div>
+                <a href="#" class="buy-button">COMPRAR AGORA</a>
+            </div>
+
+
+            <div class="product-card">
+                <div class="expiry">VENCIMENTO: MAR/25</div>
+                <div class="badge">-50%</div>
+                <img src="imagem/make/img8.PNG">
+                <div class="product-name">Batom Matte Powder Una 3,4g</div>
+                <div class="product-description">Acabamento matte com a leveza de um batom em pó e com pigmentação
+                    extrema. </div>
+                <div class="product-old-price">R$ 100,00</div>
+                <div class="product-price">R$ 100,00</div>
+                <a href="#" class="buy-button">COMPRAR AGORA</a>
+            </div>
+
+            <div class="product-card">
+                <div class="expiry">VENCIMENTO: MAR/25</div>
+                <div class="badge">-50%</div>
+                <img src="imagem/make/img9.PNG">
+                <div class="product-name">Máscara Para Cílios Supershock Volume Max</div>
+                <div class="product-description">Proporciona volume intenso sem pesar nos cílios. Fios mais preenchidos,
+                    mais volumosos, mais pretos e mais intensos. </div>
+                <div class="product-old-price">R$ 100,00</div>
+                <div class="product-price">R$ 100,00</div>
+                <a href="#" class="buy-button">COMPRAR AGORA</a>
+            </div>
+
+            <div class="product-card">
+                <div class="expiry">VENCIMENTO: MAR/25</div>
+                <div class="badge">-50%</div>
+                <img src="imagem/make/img10.PNG">
+                <div class="product-name">Máscara de Cílios Turbo SOUL 5g</div>
+                <div class="product-description">Com ela, você conquista uma make turbinada de modo prático e rápido. A
+                    máscara garante cílios 20x mais volumosos* e com 15x mais definição*</div>
+                <div class="product-old-price">R$ 100,00</div>
+                <div class="product-price">R$ 100,00</div>
+                <a href="#" class="buy-button">COMPRAR AGORA</a>
+            </div>
+        </div><br>
+
+
+        <footer>
+            <div class="fundo">
+                <p style="text-align: center;">Siga minha Rede Social!</p><br>
+                <p style="text-align: center;">E visite minhas lojas virtuais!</p><br>
+                <div class="imgrodape">
+                    <a href="https://www.instagram.com/perfumariadagle/?igsh=ZGh1ejVmZWlic3Zh&utm_source=qr">
+                        <img src="imagem/InstagramLogo.jfif">
+                    </a>
+                    <a href="https://www.natura.com.br/">
+                        <img src="imagem/Natura.jfif">
+                    </a>
+                    <a href=": https://minhaloja.grupoboticario.com.br/gleyci-revoredo-sejam-bemvindos">
+                        <img src="imagem/logoEuBo.jfif">
+                    </a>
+                    <img src="imagem/forma de pagamento.jfif">
+                </div>
+                <br>
+                <p style="text-align: center;">Os preços da loja online podem variar em relação as lojas físicas e venda
+                    direta.<br><br><br>
+                    SITE VIRTUAL PERFUMARIA DA GLEYCI REVOREDO, EUDORA,BOTICÁRIO E NATURA PRODUTOS DE BELEZA
+                    LTDA<br><br>
+                    Rd.Alvaro barbosa de lima neto, 3280 - Bloco A AP04 - Parque araucarias- Tremembé-SP- CEP:
+                    12.125-450
+                </p>
+                <p style="text-align: center;"> Conheça nossa Política de Privacidade<br>
+                    <a href="politica.html" target="_blank">Política de Privacidade</a>
+                </p>
+            </div>
+        </footer>
+</body>
+
+</html>
