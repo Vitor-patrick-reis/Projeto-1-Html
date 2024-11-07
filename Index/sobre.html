@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f9f9f9;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2 {
+            color: rgb(194, 130, 162);
+            background-color: rgb(231, 227, 227);
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        .section {
+            margin-top: 20px;
+        }
+
+        /* Perguntas */
+        .faq-item {
+            margin-bottom: 10px;
+        }
+
+        .faq-question {
+            font-weight: bold;
+            cursor: pointer;
+            color: #4a2f29;
+        }
+
+        .faq-answer {
+            display: none;
+            padding: 5px 0;
+            color: #333;
+        }
+
+        /* Formulário de contato */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form button {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        .contact-form button {
+            background-color: rgb(202, 34, 115);
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #972752;
+        }
+
+        /* Responsividade */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            h2 {
+                font-size: 1.3em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="imagem/logo2.jpeg" alt="Logo do site">
+        </div>
+        <input type="checkbox" id="navbar-toggle" class="navbar-checkbox">
+        <label for="navbar-toggle" class="navbar-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <ul class="navbar-links">
+            <li><a href="menu.html" style="color: white;">Início</a></li>
+            <li><a href="promocoes.html" style="color: white;">Promoções</a></li>
+            <li><a href="lancamentos.html" style="color: white;">Lançamentos</a></li>
+            <li><a href="cabelos.html" style="color: white;">Cabelo</a></li>
+            <li><a href="perfumaria.html" style="color: white;">Perfumaria</a></li>
+            <li><a href="makes.html" style="color: white;">Make</a></li>
+        </ul>
+    </nav>
+    <div class="fixed-image">
+        <a href="catalago.html" class="fixed-link">Catálogo Completo</a>
+    </div>
+    <div class="container">
+        <h1>Sobre Nós</h1>
+        <p style="text-align: center;"> Conheça nossa Política de Privacidade<br>
+            <a href="politica.html" target="_blank">Política de Privacidade</a>
+        </p>
+    </div>
+
+
+    <div class="section" id="mission">
+        <h2>Missão</h2>
+        <p>Nossa missão é proporcionar aos nossos clientes uma experiência de compra marcante, oferecendo perfumes
+            de alta qualidade e fragrâncias exclusivas que elevem a autoestima e a confiança. Buscamos entregar
+            excelência em atendimento, conveniência e uma seleção que atenda a todos os gostos e estilos, tornando o
+            luxo das melhores fragrâncias acessível para todos.</p>
+    </div>
+
+    <div class="section" id="values">
+        <h2>Valores</h2>
+        <ul>
+            <li>Qualidade: Priorizamos a qualidade em todos os nossos produtos, garantindo a autenticidade e
+                excelência das marcas e fragrâncias que oferecemos. </li>
+            <li>Confiança e Transparência: Valorizamos relações de confiança com nossos clientes, fornecendo
+                produtos originais e um atendimento ético e transparente. </li>
+            <li>Comprometimento: Estamos comprometidos com a satisfação dos nossos clientes, dedicando-nos a
+                entender suas preferências e necessidades. </li>
+            <li>Inovação e Estilo: Acompanhamos as tendências do mercado para sempre oferecer fragrâncias modernas e
+                clássicas, alinhadas com as novas tendências. </li>
+            <li>Sustentabilidade: Comprometemo-nos a minimizar o impacto ambiental ao selecionar fornecedores e
+                produtos que adotam práticas sustentáveis. </li>
+        </ul>
+    </div>
+
+    <div class="section" id="responsibility">
+        <h2>Responsabilidade</h2>
+        <ul>
+            <li>Garantir a autenticidade dos produtos, com selos e certificados de origem.</li>
+            <li>Oferecer um atendimento de excelência, com respeito, transparência e atenção às necessidades de cada
+                cliente.</li>
+            <li>Manter parcerias com fornecedores e distribuidores que compartilhem valores éticos e práticas
+                sustentáveis.</li>
+            <li>Promover o consumo consciente e informar sobre a longevidade e uso adequado dos nossos produtos.
+            </li>
+            <li>Contribuir para a comunidade, oferecendo oportunidades de trabalho e treinamento em um ambiente
+                inclusivo e respeitoso.</li>
+        </ul>
+
+    </div>
+
+    <div class="section" id="contact">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco através do e-mail: gprevoredo@gmail.com ou preencha o formulário abaixo:</p>
+
+        <form class="contact-form" id="contactForm">
+            <input type="text" id="name" placeholder="Nome" required>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <textarea id="message" rows="4" placeholder="Mensagem" required></textarea>
+            <button type="button" onclick="submitForm()">Enviar</button>
+        </form>
+        <p id="formResponse" style="color:green; display:none;">Sua mensagem foi enviada com sucesso!<br>
+            Em breve entraremos em contato.
+        </p>
+    </div>
+
+    <div class="section" id="faq">
+        <h2>Perguntas Frequentes</h2>
+        <div class="faq-item">
+            <p class="faq-question" onclick="toggleAnswer(0)">Entregamos para todo o Brasil ?</p>
+            <p class="faq-answer">Sim, com a minha loja virtual a entrega e feita em todo o Brasil.</p>
+        </div>
+        <div class="faq-item">
+            <p class="faq-question" onclick="toggleAnswer(1)">Como posso rastrear meu pedido?</p>
+            <p class="faq-answer">Após a confirmação do pedido, você receberá um e-mail com as informações de
+                rastreamento para acompanhar a entrega.</p>
+        </div>
+        <div class="faq-item">
+            <p class="faq-question" onclick="toggleAnswer(2)">O frete é gratis ?</p>
+            <p class="faq-answer">Não o frete é calculado conforme a localização.</p>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        // Função para exibir/esconder respostas do FAQ
+        function toggleAnswer(index) {
+            const answers = document.querySelectorAll(".faq-answer");
+            answers[index].style.display = answers[index].style.display === "none" ? "block" : "none";
+        }
+
+        // Função para enviar o formulário
+        function submitForm() {
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const message = document.getElementById("message").value;
+
+            if (name && email && message) {
+                // Simulação de envio do formulário
+                document.getElementById("contactForm").reset();
+                document.getElementById("formResponse").style.display = "block";
+            } else {
+                alert("Por favor, preencha todos os campos.");
+            }
+        }
+    </script>
+    <footer>
+        <div class="fundo">
+            <p style="text-align: center;">Siga minha Rede Social!</p><br>
+            <p style="text-align: center;">E visite minhas lojas virtuais!</p><br>
+            <div class="imgrodape">
+                <a href="https://www.instagram.com/perfumariadagle/?igsh=ZGh1ejVmZWlic3Zh&utm_source=qr">
+                    <img src="imagem/InstagramLogo.jfif">
+                </a>
+                <a href="https://www.natura.com.br/">
+                    <img src="imagem/Natura.jfif">
+                </a>
+                <a href=": https://minhaloja.grupoboticario.com.br/gleyci-revoredo-sejam-bemvindos">
+                    <img src="imagem/logoEuBo.jfif">
+                </a>
+                <img src="imagem/forma de pagamento.jfif">
+            </div>
+            <br>
+            <p style="text-align: center;">Os preços da loja online podem variar em relação as lojas físicas e venda
+                direta.<br><br><br>
+                SITE VIRTUAL PERFUMARIA DA GLEYCI REVOREDO, EUDORA,BOTICÁRIO E NATURA PRODUTOS DE BELEZA LTDA<br><br>
+                Rd.Alvaro barbosa de lima neto, 3280 - Bloco A AP04 - Parque araucarias- Tremembé-SP- CEP: 12.125-450
+            </p>
+            <p style="text-align: center;"> Conheça nossa Política de Privacidade<br>
+                <a href="politica.html" target="_blank">Política de Privacidade</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
