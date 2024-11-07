@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promoçoes</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animation.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="imagem/logo2.jpeg" alt="Logo do site">
+        </div>
+        <input type="checkbox" id="navbar-toggle" class="navbar-checkbox">
+        <label for="navbar-toggle" class="navbar-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <ul class="navbar-links">
+            <li><a href="menu.html" style="color: white;">Início</a></li>
+            <li><a href="lancamentos.html" style="color: white;">Lançamentos</a></li>
+            <li><a href="makes.html" style="color: white;">Make</a></li>
+            <li><a href="cabelos.html" style="color: white;">Cabelo</a></li>
+            <li><a href="perfumaria.html" style="color: white;">Perfumaria</a></li>
+            <li><a href="sobre.html" style="color: white;">Sobre</a></li>
+        </ul>
+    </nav>
+    <!---Mensagem automatica na tela-->
+    <div class="message-box" id="messageBox">
+        <span class="close-btn" onclick="closeMessage()">X</span>
+        <h2>Conheça o nosso catálago completo!</h2>
+        <p>Clique no link abaixo e veja nossas ofertas especiais!</p>
+        <a href="catalago.html" target="_blank">Ver Catalago</a>
+    </div>
+    <script>
+        function showMessage() {
+            const messageBox = document.getElementById('messageBox');
+            messageBox.style.display = 'block';
+
+            // Oculta a mensagem automaticamente após 10 segundos, se não for fechada
+            setTimeout(() => {
+                messageBox.style.display = 'none';
+            }, 10000);
+        }
+
+        function closeMessage() {
+            const messageBox = document.getElementById('messageBox');
+            messageBox.style.display = 'none';
+        }
+
+        // Exibe a mensagem a cada 20 segundos
+        setInterval(showMessage, 20000);
+    </script>
+    <!---Fim Mensagem automatica na tela-->
+    <div class="fixed-image">
+        <a href="catalago.html" class="fixed-link">Catálogo Completo</a>
+    </div>
+    <br><br>
+    <form class="search-container">
+        <input type="text" id="search-bar" placeholder="O que você procura hoje?">
+        <a href="#"><img class="search-icon" src="imagem/inicio/busca.PNG"></a>
+    </form><br><br>
+    <p style="text-align: justify; color:rgb(194, 130, 162)">
+        Beauty Week Eudora 💜<br><br>
+        Aqui, a Black Friday é chamada de Beauty Week 2024 Eudora! É o melhor momento do ano para comprar os seus
+        produtos de beleza favoritos <br>
+        com um preço especial, que só acontece uma vez ao ano! Realce o seu brilho único
+        com as promoções da nossa Beauty Week 2024!
+    </p><br>
+
+    <div class="faixa">
+        <img src="imagem/Promoção/Capturar5.PNG">
+    </div><br>
+
+    <!--Carrosel de imagem automatico-->
+    <main class="main">
+        <section class="galery">
+            <div class="fotos">
+                <img src="imagem/Promoção/Capturar.PNG">
+                <img src="imagem/carrosel/img7.PNG">
+                <img src="imagem/Promoção/Capturar2.PNG">
+                <img src="imagem/Promoção/Capturar3.PNG">zzzz
+                <img src="imagem/Promoção/Capturar4.PNG">
+            </div>
+        </section>
+    </main>
+    <!--Fim do carrosel de imagem automatico-->
+
+    <br><br>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <div class="expiry">VENCIMENTO: MAR/25</div>
+            <div class="badge">-50%</div>
+            <img src="imagem/Laçamento/shampoo1.PNG" height="210px">
+            <div class="product-name"> Combo Siàge Resgate Imediato Tratamento: Máscara Capilar 250g + Água Lamelar
+                150mll</div>
+            <div class="product-description">Ideal para a sua rotina de tratamento capilar de maneira eficiente. </div>
+            <div class="product-old-price">R$ 100,00</div>
+            <div class="product-price">R$ 100,00</div>
+            <a href="#" class="buy-button">COMPRAR AGORA</a>
+        </div>
+
+
+        <div class="product-card">
+            <div class="expiry">VENCIMENTO: MAR/25</div>
+            <div class="badge">-50%</div>
+            <img src="imagem/Promoção/img2.PNG">
+            <div class="product-name">Loção Aveludada Desodorante Corporal Nativa Spa Cereja Rouge 400ml</div>
+            <div class="product-description">Com extrato de cereja, entrega efeito pele de cereja, trazendo uma melhora
+                da textura, suavizando e alisando o toque.</div>
+            <div class="product-old-price">R$ 100,00</div>
+            <div class="product-price">R$ 100,00</div>
+            <a href="#" class="buy-button">COMPRAR AGORA</a>
+        </div>
+
+        <div class="product-card">
+            <div class="expiry">VENCIMENTO: MAR/25</div>
+            <div class="badge">-50%</div>
+            <img src="imagem/Promoção/img3.PNG">
+            <div class="product-name">Óleo Multifuncional Glorioso Nativa Spa Cereja Rouge 85ml</div>
+            <div class="product-description">Com óleo de Quinoa, traz máxima potência da indulgência de Cereja Rouge em
+                uma textura para corpo e cabelos. </div>
+            <div class="product-old-price">R$ 100,00</div>
+            <div class="product-price">R$ 100,00</div>
+            <a href="#" class="buy-button">COMPRAR AGORA</a>
+        </div>
+
+        <div class="product-card">
+            <div class="expiry">VENCIMENTO: MAR/25</div>
+            <div class="badge">-50%</div>
+            <img src="imagem/Promoção/img5.PNG">
+            <div class="product-name">300Km/H Max Turbo Deo Colônia</div>
+            <div class="product-description">Para o homem que abraça a vida com intensidade. </div>
+            <div class="product-old-price">R$ 100,00</div>
+            <div class="product-price">R$ 100,00</div>
+            <a href="#" class="buy-button">COMPRAR AGORA</a>
+        </div>
+
+
+        <div class="product-card">
+            <div class="expiry">VENCIMENTO: MAR/25</div>
+            <div class="badge">-50%</div>
+            <img src="imagem/Promoção/img4.PNG">
+            <div class="product-name">Eudora H Ready Desodorante Colônia 100ml</div>
+            <div class="product-description"> Faz um brinde ao inesperado com uma fragrância da perfumaria masculina
+                refrescante. </div>
+            <div class="product-old-price">R$ 100,00</div>
+            <div class="product-price">R$ 100,00</div>
+            <a href="#" class="buy-button">COMPRAR AGORA</a>
+        </div>
+    </div> <br>
+
+    <div class="faixa">
+        <img src="imagem/Promoção/Capturar.PNG"> <br><br>
+    </div>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <div class="expiry">VENCIMENTO: MAR/25</div>
+            <div class="badge">-50%</div>
+            <img src="imagem/Promoção/img6.PNG">
+            <div class="product-name"> Egeo Dolce Desodorante Colônia 90ml</div>
+            <div class="product-description">É tão irresistível quanto um doce! </div>
+            <div class="product-old-price">R$ 100,00</div>
+            <div class="product-price">R$ 100,00</div>
+            <a href="#" class="buy-button">COMPRAR AGORA</a>
+        </div>
+
+
+        <div class="product-card">
+            <div class="expiry">VENCIMENTO: MAR/25</div>
+            <div class="badge">-50%</div>
+            <img src="imagem/Promoção/img7.PNG">
+            <div class="product-name">Polpa Hidratante para os Pés Ekos Castanha</div>
+            <div class="product-description">Elaborada com óleo bruto de castanha, esta polpa para pés e pernas é um
+                potente antiressecamento, que nutre e melhora visivelmente.</div>
+            <div class="product-old-price">R$ 100,00</div>
+            <div class="product-price">R$ 100,00</div>
+            <a href="#" class="buy-button">COMPRAR AGORA</a>
+        </div>
+
+        <div class="product-card">
+            <div class="expiry">VENCIMENTO: MAR/25</div>
+            <div class="badge">-50%</div>
+            <img src="imagem/Promoção/img8.PNG">
+            <div class="product-name">Creme Facial Antissinais Avon Care</div>
+            <div class="product-description">O Creme Facial Antissinais de Avon Care é um tratamento cosmético 5 em 1.
+            </div>
+            <div class="product-old-price">R$ 100,00</div>
+            <div class="product-price">R$ 100,00</div>
+            <a href="#" class="buy-button">COMPRAR AGORA</a>
+        </div>
+
+        <div class="product-card">
+            <div class="expiry">VENCIMENTO: MAR/25</div>
+            <div class="badge">-50%</div>
+            <img src="imagem/Promoção/img9.PNG">
+            <div class="product-name">Colônia Desodorante Rummo Desafio 100ml</div>
+            <div class="product-description">Uma fragrância que traduz a adrenalina através do frescor do gengibre e
+                força da pimenta preta. </div>
+            <div class="product-old-price">R$ 100,00</div>
+            <div class="product-price">R$ 100,00</div>
+            <a href="#" class="buy-button">COMPRAR AGORA</a>
+        </div>
+    </div> <br>
+
+    <div class="faixa">
+        <img src="imagem/Promoção/Capturar3.PNG"> <br><br>
+    </div><br>
+    <h2 style="text-align: center;">Combo Cereja Rouge (7 itens)</h2>
+    </div>
+    <img src="imagem/Promoção/nativaspa.PNG" height="86px" width="200px"><br>
+    <div class="carousel-teste">
+        <div class="carousel-imagesteste">
+            <img src="imagem/Promoção/img10.PNG">
+            <img src="imagem/Promoção/img2.PNG">
+            <img src="imagem/Promoção/img3.PNG">
+        </div>
+        <button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+    <script src="js/script.js"></script>
+    <table>
+        <tr>
+            <td>
+                <div class="card-p">
+                    <div class="price-info">
+                        <p class="old-price">R$ 144,90</p>
+                        <span class="discount">-50%</span>
+                    </div>
+                    <h2 class="current-price">R$ 71,90</h2>
+                    <p class="installment">3x R$ 23,97</p>
+
+                    <button class="buy-button">🛒 COMPRAR</button>
+
+                    <div class="shipping">
+                        <p><strong>Consultar frete e prazo</strong></p>
+                        <p>Informações de frete válidas apenas para este produto. Confira as condições definitivas na
+                            sacola.</p>
+                        <div class="cep-check">
+                            <input type="text" placeholder="Digite o CEP">
+                            <button>OK</button>
+                        </div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <p style="font-size: 17px;">O Combo Cereja Rouge é ideal para aquela ocasião especial:
+                    traz itens de corpo e banho com o efeito pele de cereja da linha Nativa Spa:
+                    a combinação do Óleo De Quinoa* + Extrato De Cereja que entrega melhora na textura e firmeza da
+                    pele,
+                    te deixando comprovadamente mais irresistível** com exclusivo acorde Sexy Cherry. Além disso, traz
+                    dois
+                    itens de maquiagem Make B., para criar infinitos looks com luxo e sofisticação:
+                </p><br> <br>
+                <div class="wrapper">
+                    <h3>Descrição do Produto</h3>
+                    <input type="checkbox" id="btn-a">
+                    <label for="btn-a">Mostrar Mais</label>
+                    <div class="hide">
+                        <P style="font-size: 15px;">BODY SPLASH<br><br>
+                            O Body Splash Nativa Spa Cereja Rouge intensifica a sua perfumação com a fragrância sedutora
+                            e instigante da
+                            cereja, na sua fragrância frutal ambarada instigante, sensual e envolvente. Ideal para
+                            aquela ocasião especial.<br><br>
+                            SABONETE LÍQUIDO <br><br>
+                            O Sabonete Líquido Nativa Spa Cereja Rouge transforma o seu banho em um ritual de sedução.
+                            Sua fórmula cremosa limpa a pele sem ressecar. <br><br>
+                            ÓLEO MULTIFUNCIONAL<br><br>
+                            O Óleo Multifuncional Glorioso Nativa SPA Cereja Rouge edição limitada, entrega um
+                            tratamento poderoso com fragrância frutal ambarada sensual e irresistível para pele e
+                            cabelos. <br><br>
+                            LOÇÃO CORPORAL <br><br>
+                            A Loção Aveludada Cereja Rouge Nativa Spa deixa a sua pele macia, hidratada e irresistível,
+                            com toque aveludado. <br><br>
+                            CREME FIRMADOR DE COLO <br><br>
+                            O Creme Firmador de Colo 5 em 1 Nativa Spa Cereja Rouge deixa a pele do seu colo e pescoço
+                            mais firme,
+                            uniforme e hidratada. <br><br>
+                            BATOM VERMELHO <br><br>
+                            O Batom Vermelho Red Cherry Make B. entrega lábios hidratados, com volume e alta
+                            cobertura.<br><br>
+                            PALETA DE MAQUIAGEM MULTIFUNCIONAL <br><br>
+                            Com 51 tons, que vão dos clássicos aos mais ousados, a Paleta Multifuncional Cereja Rouge
+                            Make B. <br><br>
+                        </P>
+                    </div>
+                </div>
+                <br clear="all">
+                <div class="wrapper">
+                    <h3>Pirâmede Olfativa</h3>
+                    <input type="checkbox" id="btn-b">
+                    <label for="btn-b">Mostrar Mais</label>
+                    <div class="hide">
+                        <p style="font-size: 15px;">Topo: Limão Italiano; Acorde sexy Cherry; Framboesa; Maçã Vermelha;
+                            Corpo: Rosa Vermelha; Jasmim Vermelho; Violeta; Pêssego; Fundo: Madeira Cashmere; Patchouli;
+                            Sândalo; Âmbar; Notas Balsâmicas; Rum Vermelho;</p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table><br>
+    <footer>
+        <div class="fundo">
+            <p style="text-align: center;">Siga minha Rede Social!</p><br>
+            <p style="text-align: center;">E visite minhas lojas virtuais!</p><br>
+            <div class="imgrodape">
+                <a href="https://www.instagram.com/perfumariadagle/?igsh=ZGh1ejVmZWlic3Zh&utm_source=qr">
+                    <img src="imagem/InstagramLogo.jfif">
+                </a>
+                <a href="https://www.natura.com.br/">
+                    <img src="imagem/Natura.jfif">
+                </a>
+                <a href=": https://minhaloja.grupoboticario.com.br/gleyci-revoredo-sejam-bemvindos">
+                    <img src="imagem/logoEuBo.jfif">
+                </a>
+                <img src="imagem/forma de pagamento.jfif">
+            </div>
+            <br>
+            <p style="text-align: center;">Os preços da loja online podem variar em relação as lojas físicas e venda
+                direta.<br><br><br>
+                SITE VIRTUAL PERFUMARIA DA GLEYCI REVOREDO, EUDORA,BOTICÁRIO E NATURA PRODUTOS DE BELEZA LTDA<br><br>
+                Rd.Alvaro barbosa de lima neto, 3280 - Bloco A AP04 - Parque araucarias- Tremembé-SP- CEP: 12.125-450
+            </p>
+            <p style="text-align: center;"> Conheça nossa Política de Privacidade<br>
+                <a href="politica.html" target="_blank">Política de Privacidade</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
