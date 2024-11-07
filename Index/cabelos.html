@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabelo</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animation.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="imagem/logo2.jpeg" alt="Logo do site">
+        </div>
+        <input type="checkbox" id="navbar-toggle" class="navbar-checkbox">
+        <label for="navbar-toggle" class="navbar-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <ul class="navbar-links">
+            <li><a href="menu.html" style="color: white;">Início</a></li>
+            <li><a href="promocoes.html" style="color: white;">Promoções</a></li>
+            <li><a href="lancamentos.html" style="color: white;">Lançamentos</a></li>
+            <li><a href="makes.html" style="color: white;">Make</a></li>
+            <li><a href="perfumaria.html" style="color: white;">Perfumaria</a></li>
+            <li><a href="sobre.html" style="color: white;">Sobre</a></li>
+        </ul>
+    </nav>
+    <!---Mensagem automatica na tela-->
+    <div class="message-box" id="messageBox">
+        <span class="close-btn" onclick="closeMessage()">X</span>
+        <h2>Conheça o nosso catálago completo!</h2>
+        <p>Clique no link abaixo e veja nossas ofertas especiais!</p>
+        <a href="catalago.html" target="_blank">Ver Catalago</a>
+    </div>
+    <script>
+        function showMessage() {
+            const messageBox = document.getElementById('messageBox');
+            messageBox.style.display = 'block';
+
+            // Oculta a mensagem automaticamente após 10 segundos, se não for fechada
+            setTimeout(() => {
+                messageBox.style.display = 'none';
+            }, 10000);
+        }
+
+        function closeMessage() {
+            const messageBox = document.getElementById('messageBox');
+            messageBox.style.display = 'none';
+        }
+
+        // Exibe a mensagem a cada 20 segundos
+        setInterval(showMessage, 20000);
+    </script>
+    <!---Fim Mensagem automatica na tela-->
+    <div class="fixed-image">
+        <a href="catalago.html" class="fixed-link">Catálogo Completo</a>
+    </div>
+    <br>
+    <form class="search-container">
+        <input type="text" id="search-bar" placeholder="O que você procura hoje?">
+        <a href="#"><img class="search-icon" src="imagem/inicio/busca.PNG"></a>
+    </form><br><br>
+    <main>
+        <div class="faixa">
+            <img src="imagem/Cabelo/Capturar1.PNG" height="245px">
+        </div><br><br>
+        <div class="faixa">
+            <h2>Kit Completão Reconstrução Extrema</h2>
+            <td><img src="imagem/Cabelo/img6.PNG" height="400px" width="400px">
+            </td>
+        </div><br>
+        <table>
+            <tr>
+                <td>
+                    <div class="card-p">
+                        <div class="price-info">
+                            <p class="old-price">R$ 144,90</p>
+                            <span class="discount">-50%</span>
+                        </div>
+                        <h2 class="current-price">R$ 71,90</h2>
+                        <p class="installment">3x R$ 23,97</p>
+
+                        <button class="buy-button">🛒 COMPRAR</button>
+
+                        <div class="shipping">
+                            <p><strong>Consultar frete e prazo</strong></p>
+                            <p>Informações de frete válidas apenas para este produto. Confira as condições definitivas
+                                na
+                                sacola.</p>
+                            <div class="cep-check">
+                                <input type="text" placeholder="Digite o CEP">
+                                <button>OK</button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="wrapper">
+                        <h3>Descrição do produto</h3>
+                        <input type="checkbox" id="btn-a">
+                        <label for="btn-a">Mostrar Mais</label>
+                        <div class="hide">
+                            <h4>A Linha de Reconstrução Extrema de Advance Techniques é enriquecida com complexo
+                                Kera-Pantenol, que contém óleo de abacate, fonte de Ômega 6 e vitamina E, garantindo que
+                                os cabelos secos e danificados sejam instantaneamente reparados, além de ajudar na
+                                redução de quebra e de pontas duplas, deixando os fios de cabelo mais fortes e
+                                saudáveis. A linha ainda proporciona proteção térmica que permanece por até 3 lavagens e
+                                controla a queda, deixando visivelmente menos cabelo na escova, pia e ralo.</h4>
+                        </div>
+                    </div>
+                    <br clear="all">
+                    <div class="wrapper">
+                        <h3>Benfícios</h3>
+                        <input type="checkbox" id="btn-b">
+                        <label for="btn-b">Mostrar Mais</label>
+                        <div class="hide">
+                            <h4>Benefícios da Máscara:<br><br><br><br>
+                                - A Máscara de Reconstrução de Advance Techniques fornece proteção contra o calor para o
+                                cabelo, que permanece por até 3 lavagens
+                                <br><br>
+                                - Hidrata e suaviza até mesmo cabelos secos e danificados
+                                <br><br>
+                                - Ajuda a fornecer resultados poderosos para o cabelo que é danificado por ferramentas
+                                de calor e química
+                                <br><br>
+                                - Faz as pontas duplas parecerem mais suaves
+                                <br><br><br><br>
+                                Benefícios do Sérum de Tratamento:
+                                <br><br> <br><br>
+                                - Redução de até 83% na quebra do cabelo
+                                <br><br>
+                                - Fornece significativamente mais proteção contra o calor durante a modelagem com
+                                secador
+                                <br><br>
+                                - Restabelece o nível de hidratação em cabelos muito secos e danificados
+                                - Indicado para: Cabelos muito danificados quimicamente e/ou por fontes de calor
+                            </h4>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table><br>
+        <div class="faixa">
+            <img src="imagem/Cabelo/Capturar3.PNG" height="207px">
+        </div><br>
+        <div class="faixa">
+            <h2 style="text-align: center;">Combo Siàge Pro Cronology: Shampoo 250ml + Condicionador 200ml +
+                Máscara de Hidratação 250g</h2>
+            <img src="imagem/Cabelo/siagelogo.PNG" height="90px" width="150px">
+            <img src="imagem/Cabelo/img5.PNG" height="400px" width="400px">
+        </div>
+        <table>
+            <tr>
+                <td>
+                    <div class="card-p">
+                        <div class="price-info">
+                            <p class="old-price">R$ 144,90</p>
+                            <span class="discount">-50%</span>
+                        </div>
+                        <h2 class="current-price">R$ 71,90</h2>
+                        <p class="installment">3x R$ 23,97</p>
+
+                        <button class="buy-button">🛒 COMPRAR</button>
+
+                        <div class="shipping">
+                            <p><strong>Consultar frete e prazo</strong></p>
+                            <p>Informações de frete válidas apenas para este produto. Confira as condições definitivas
+                                na
+                                sacola.</p>
+                            <div class="cep-check">
+                                <input type="text" placeholder="Digite o CEP">
+                                <button>OK</button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="wrapper">
+                        <h3>Destrição do produto</h3>
+                        <input type="checkbox" id="btn-a">
+                        <label for="btn-a">Mostrar Mais</label>
+                        <div class="hide">
+                            <h4>Combo Siàge Pro Cronology: Shampoo 250ml + Condicionador 200ml + Máscara de Hidratação
+                                250g<br><br>
+                                O Combo Siàge Pro Cronology: Shampoo 250ml + Condicionador 200ml + Máscara de Hidratação
+                                250g é ideal para pausar a degradação e o desgaste dos seus fios e recuperar até os
+                                danos mais severos em até 2 semanas:
+                                <br><br>
+                                SHAMPOO:
+                                <br><br>
+                                O Shampoo Siàge Pro Cronology remove as impurezas sem ressecar os fios e os deixa
+                                prontos para receber o tratamento. Formulado com Ácido Poliglutâmico: ativo
+                                biotecnológico que auxilia no equilíbrio da umidade natural interna e externa dos fios,
+                                garante maciez, brilho e alta hidratação dos cabelos.
+                                <br><br>
+                                CONDICIONADOR:
+                                <br><br>
+                                O Condicionador Siàge Pro Cronology possui ação ultra condicionante que sela as
+                                cutículas e garante que o tratamento seja mantido no fio, deixando-os mais fortes e
+                                maleáveis. Além disso, proporciona fios macios e desembaraçados, mais brilho e alta
+                                hidratação.
+                                <br><br>
+                                MÁSCARA DE HIDRATAÇÃO:
+                                <br><br>
+                                A Máscara de Hidratação Siàge Pro Cronology possui ação duradoura com reposição da massa
+                                capilar, selagem imediata das pontas e ultra hidratação. Para garantir uma ação tão
+                                eficiente, a linha Siàge Pro Cronology age nas 3 etapas do cronograma proporcionando
+                                hidratação, nutrição e reconstrução.
+                            </h4>
+                        </div>
+                    </div>
+                    <br clear="all">
+                    <div class="wrapper">
+                        <h3>Como usar</h3>
+                        <input type="checkbox" id="btn-b">
+                        <label for="btn-b">Mostrar Mais</label>
+                        <div class="hide">
+                            <h4>Conselho de Aplicação<br><br>
+                                Shampoo: Aplique o shampoo nos cabelos molhados fazendo uma massagem suave. Enxágue bem.
+                                <br><br>
+                                Condicionador: Espalhe o condicionador ao longo dos fios. Desembarace suavemente
+                                deixando agir por alguns minutos. Enxágue bem.
+                                <br><br>
+                                Máscara de Hidratação:
+                                <br><br>
+                                ETAPA DE HIDRATAÇÃO: Após utilizar o Shampoo, aplique a máscara no comprimento e pontas.
+                                Massageie os fios e deixe agir por 5 minutos. Enxágue.
+                                <br><br>
+                                ETAPA DE NUTRIÇÃO: Repita o processo da etapa de hidratação misturando uma colher de
+                                máscara em 3 gotas do potencializador de nutrição da linha, para transformá-la em uma
+                                máscara nutritiva. Use a tampa da máscara para realizar a mistura.
+                                <br><br>
+                                ETAPA DE RECONSTRUÇÃO: Repita o processo da etapa de hidratação misturando uma colher de
+                                máscara em 21 gotas do potencializador de reconstrução da linha, para transformá-la em
+                                uma máscara reconstrutora. Use a tampa da máscara para realizar a mistura.
+                            </h4>
+                        </div>
+                </td>
+            </tr>
+        </table>
+        <br>
+
+        <!--Carrosel de imagem automatico-->
+        <main class="main">
+            <section class="galery">
+                <div class="fotos">
+                    <img src="imagem/Cabelo/Capturar5.PNG" alt="Foto 1">
+                    <img src="imagem/Cabelo/Capturar2.PNG" alt="Foto 2">
+                    <img src="imagem/Cabelo/Capturar3.PNG" alt="Foto 3">
+                    <img src="imagem/Cabelo/Capturar4.PNG" alt="Foto 4">
+                    <img src="imagem/Cabelo/Capturar1.PNG" alt="Foto 1">
+                </div>
+            </section>
+        </main>
+        <!--Fim do carrosel de imagem automatico-->
+
+        <div class="product-grid">
+            <!-- Card de produto -->
+            <div class="product-card">
+                <div class="expiry">VENCIMENTO: MAR/25</div>
+                <div class="badge">-50%</div>
+                <img src="imagem/Cabelo/img1.PNG">
+                <div class="product-name">Regeneradora: Shampoo 300ml + Máscara Capilar 250g + Condicionador 280ml</div>
+                <div class="product-description"> Indicado para fios ressecados, o Combo Match Nutrição Regeneradora
+                    traz ativos aprimorados em laboratórios. </div>
+                <div class="product-old-price">R$ 100,00</div>
+                <div class="product-price">R$ 100,00</div>
+                <a href="#" class="buy-button">COMPRAR AGORA</a>
+            </div>
+
+
+            <div class="product-card">
+                <div class="expiry">VENCIMENTO: MAR/25</div>
+                <div class="badge">-50%</div>
+                <img src="imagem/Cabelo/img2.PNG" height="180px">
+                <div class="product-name">Combo Match Liso Prolongado: Shampoo 300ml + Máscara Capilar 250g +
+                    Condicionador 280ml</div>
+                <div class="product-description">Recomendado para fios lisos naturais e alisados, Combo Match Liso
+                    Prolongado garante Lisos mais lisos por 3 dias. </div>
+                <div class="product-old-price">R$ 100,00</div>
+                <div class="product-price">R$ 100,00</div>
+                <a href="#" class="buy-button">COMPRAR AGORA</a>
+            </div>
+
+            <div class="product-card">
+                <div class="expiry">VENCIMENTO: MAR/25</div>
+                <div class="badge">-50%</div>
+                <img src="imagem/Cabelo/img3.PNG">
+                <div class="product-name">Combo Match Science Pré e Pós-Química: Shampoo 300ml + Condicionador 280ml
+                </div>
+                <div class="product-description">Traz uma combinação inteligente de ativos para tratar danos extremos: o
+                    Ácido Itacônico e a Microinfusão de Aminoácidos. </div>
+                <div class="product-old-price">R$ 100,00</div>
+                <div class="product-price">R$ 100,00</div>
+                <a href="#" class="buy-button">COMPRAR AGORA</a>
+            </div>
+
+            <div class="product-card">
+                <div class="expiry">VENCIMENTO: MAR/25</div>
+                <div class="badge">-50%</div>
+                <img src="imagem/Cabelo/img4.PNG">
+                <div class="product-name">Shampoo Reestruturante para Reconstrução de Danos Extremos</div>
+                <div class="product-description">Shampoo Reestruturante para Reconstrução de Danos Extremos​​ Com
+                    BioProteína Tripla Ação e Ativo Reconstrutor.</div>
+                <div class="product-old-price">R$ 100,00</div>
+                <div class="product-price">R$ 100,00</div>
+                <a href="#" class="buy-button">COMPRAR AGORA</a>
+            </div>
+        </div><br><br>
+    </main><br>
+    <h2 style="text-align: center;">Kit Presente Natal Siàge Glow Expert:<br>
+        Shampoo 250 ml + Máscara Capilar Ultra Brilho 250g + Balm Disciplinante Finalizador Capilar 100 ml</h2>
+    </div>
+    <img src="imagem/Laçamento/eudora.PNG" height="86px" width="160px">
+    <div class="carousel-teste">
+        <div class="carousel-imagesteste">
+            <img src="imagem/Cabelo/img7.PNG">
+            <img src="imagem/Cabelo/img8.PNG">
+            <img src="imagem/Cabelo/img9.PNG">
+        </div>
+        <button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+    <script src="js/script.js"></script><br>
+    <table>
+        <tr>
+            <td>
+                <div class="card-p">
+                    <div class="price-info">
+                        <p class="old-price">R$ 144,90</p>
+                        <span class="discount">-50%</span>
+                    </div>
+                    <h2 class="current-price">R$ 71,90</h2>
+                    <p class="installment">3x R$ 23,97</p>
+
+                    <button class="buy-button">🛒 COMPRAR</button>
+
+                    <div class="shipping">
+                        <p><strong>Consultar frete e prazo</strong></p>
+                        <p>Informações de frete válidas apenas para este produto. Confira as condições definitivas na
+                            sacola.</p>
+                        <div class="cep-check">
+                            <input type="text" placeholder="Digite o CEP">
+                            <button>OK</button>
+                        </div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <p style="font-size: 17px;">
+                    Para um cabelo radiante e impecável, presenteie com o Kit Siàge Glow Expert.<br>
+                    Composto por Shampoo,
+                    Balm Disciplinante e Máscara, proporciona limpeza suave, hidratação profunda, redução de frizz e
+                    efeito glow intenso.
+                </p><br> <br>
+                <div class="wrapper">
+                    <h3>Como usar</h3>
+                    <input type="checkbox" id="btn-a">
+                    <label for="btn-a">Mostrar Mais</label>
+                    <div class="hide">
+                        <P style="font-size: 15px;">Conselho de Aplicação<br><br>
+                            Shampoo Siàge Glow Expert: aplique sobre os cabelos úmidos, massageando suavemente o couro
+                            cabeludo até formar espuma. Enxágue abundantemente e reaplique se necessário.
+                            <br><br>
+                            Máscara Capilar Ultra Brilho Siàge Glow Expert: após utilizar o Shampoo da linha, aplique o
+                            produto em mechas, comprimento e pontas. Massageie os fios e deixe agir por 5 minutos.
+                            Enxágue. Utilize de 1 a 2 vezes por semana ou sempre que necessário.
+                            <br><br>
+                            Balm Disciplinante Finalizador Capilar Siàge Glow Expert: aplique em todo o comprimento nos
+                            cabelos úmidos ou secos e modele do seu jeito. Reaplique quando necessário. Não enxágue.
+                    </div>
+                </div>
+                <br clear="all">
+                <div class="wrapper">
+                    <h3>Ação/Resultado</h3>
+                    <input type="checkbox" id="btn-b">
+                    <label for="btn-b">Mostrar Mais</label>
+                    <div class="hide">
+                        <p style="font-size: 15px;">Glossfix
+                            <br><br>
+                            Cabelos limpos, reparados,brilhantes e cheiroso.
+                        </p>
+                    </div>
+                </div>
+                <a href="#"><img src="imagem/Comprar-Agora.png" height="150" width="200"></a>
+            </td>
+        </tr>
+    </table><br><br>
+
+    <footer>
+        <div class="fundo">
+            <p style="text-align: center;">Siga minha Rede Social!</p><br>
+            <p style="text-align: center;">E visite minhas lojas virtuais!</p><br>
+            <div class="imgrodape">
+                <a href="https://www.instagram.com/perfumariadagle/?igsh=ZGh1ejVmZWlic3Zh&utm_source=qr">
+                    <img src="imagem/InstagramLogo.jfif">
+                </a>
+                <a href="https://www.natura.com.br/">
+                    <img src="imagem/Natura.jfif">
+                </a>
+                <a href=": https://minhaloja.grupoboticario.com.br/gleyci-revoredo-sejam-bemvindos">
+                    <img src="imagem/logoEuBo.jfif">
+                </a>
+                <img src="imagem/forma de pagamento.jfif">
+            </div>
+            <br>
+            <p style="text-align: center;">Os preços da loja online podem variar em relação as lojas físicas e venda
+                direta.<br><br><br>
+                SITE VIRTUAL PERFUMARIA DA GLEYCI REVOREDO, EUDORA,BOTICÁRIO E NATURA PRODUTOS DE BELEZA LTDA<br><br>
+                Rd.Alvaro barbosa de lima neto, 3280 - Bloco A AP04 - Parque araucarias- Tremembé-SP- CEP: 12.125-450
+            </p>
+            <p style="text-align: center;"> Conheça nossa Política de Privacidade<br>
+                <a href="politica.html" target="_blank">Política de Privacidade</a>
+            </p>
+        </div>
+    </footer>
+    </div>
+
+</body>
+
+</html>
